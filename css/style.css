@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+body #quiz .question {
+  font-size: 20px;
+}
+
+body #quiz .answers {
+  display: flex;
+  flex-direction: column;
+}
+
+body #quiz .image img {
+  width: 70%;
+}
+
+body #result {
+  font-size: 30px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
